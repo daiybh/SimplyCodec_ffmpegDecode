@@ -1,0 +1,15 @@
+[submodule "submodule/videoFrameModule"]
+	path = submodule/videoFrameModule
+url=git@bitbucket.org:id4tv/videoframemodule.git
+[submodule "submodule/dnxFrameModule"]
+	path = submodule/dnxFrameModule
+url=git@bitbucket.org:id4tv/dnxmodule.git
+[submodule "submodule/dnxGPUModule"]
+	path = submodule/dnxGPUModule
+url=git@bitbucket.org:id4tv/dnxgpumodule.git
+[submodule "submodule/VideoFrameGPUModule"]
+	path = submodule/VideoFrameGPUModule
+url=git@bitbucket.org:id4tv/videoframegpumodule.git
+[submodule "submodule/dveGPUModule"]
+	path = submodule/dveGPUModule
+url=git@bitbucket.org:id4tv/dvegpumodule.git
