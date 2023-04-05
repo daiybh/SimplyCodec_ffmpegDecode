@@ -1,21 +1,21 @@
-[submodule "submoduleX/videoFrameModule"]
-	path = submoduleX/videoFrameModule
+[submodule "submodule/videoFrameModule"]
+	path = submodule/videoFrameModule
 	url = git@bitbucket.org:id4tv/videoframemodule.git
-[submodule "submoduleX/dnxFrameModule"]
-	path = submoduleX/dnxFrameModule
+[submodule "submodule/dnxFrameModule"]
+	path = submodule/dnxFrameModule
 	url = git@bitbucket.org:id4tv/dnxmodule.git
-[submodule "submoduleX/dnxGPUModule"]
-	path = submoduleX/dnxGPUModule
+[submodule "submodule/dnxGPUModule"]
+	path = submodule/dnxGPUModule
 	url = git@bitbucket.org:id4tv/dnxgpumodule.git
-[submodule "submoduleX/VideoFrameGPUModule"]
-	path = submoduleX/VideoFrameGPUModule
+[submodule "submodule/VideoFrameGPUModule"]
+	path = submodule/VideoFrameGPUModule
 	url = git@bitbucket.org:id4tv/videoframegpumodule.git
-[submodule "submoduleX/dveGPUModule"]
-	path = submoduleX/dveGPUModule
+[submodule "submodule/dveGPUModule"]
+	path = submodule/dveGPUModule
 	url = git@bitbucket.org:id4tv/dvegpumodule.git
-[submodule "submoduleX/simplylivebase"]
-	path = submoduleX/simplylivebase
+[submodule "submodule/simplylivebase"]
+	path = submodule/simplylivebase
 	url = git@bitbucket.org:id4tv/simplylivebase.git
-[submodule "submoduleX/std-simplylive"]
-	path = submoduleX/std-simplylive
+[submodule "submodule/std-simplylive"]
+	path = submodule/std-simplylive
 	url = git@bitbucket.org:id4tv/std-simplylive.git
