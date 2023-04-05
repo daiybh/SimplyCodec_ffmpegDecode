@@ -11,7 +11,9 @@ simplylive_findPack(dveGPU)
 simplylive_findPack(DnxFrame)
 
 
-find_package(ffmpeg)
+include(FetchFFmpeg)
+find_package(FFmpeg REQUIRED)
+
 if(FFMPEG_FOUND)
 message(status "ffmpeg found  ${FFMPEG_INCLUDE_DIRS}")
 endif()
@@ -26,6 +28,7 @@ target_link_libraries(test  PUBLIC ${FFMPEG_LIBRARIES}
                         PUBLIC $<BUILD_INTERFACE:DnxFrame>  
                         PUBLIC $<BUILD_INTERFACE:${CUDA_CUDA_LIBRARY}>     
                         PUBLIC tcMarker
+						PRIVATE FFmpeg::FFmpeg
 )
 
 
