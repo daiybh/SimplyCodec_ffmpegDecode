@@ -13,3 +13,9 @@ url=git@bitbucket.org:id4tv/videoframegpumodule.git
 [submodule "submodule/dveGPUModule"]
 	path = submodule/dveGPUModule
 url=git@bitbucket.org:id4tv/dvegpumodule.git
+[submodule "submodule/simplylivebase"]
+	path = submodule/simplylivebase
+url=git@bitbucket.org:id4tv/simplylivebase.git
+[submodule "submodule/std-simplylive"]
+	path = submodule/std-simplylive
+url=git@bitbucket.org:id4tv/std-simplylive.git
