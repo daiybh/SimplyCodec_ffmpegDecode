@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 3.8)
-include(submodule/simplylivebase/simplylive.make)
+include(submoduleX/simplylivebase/simplylive.make)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 set(CMAKE_CUDA_STANDARD 14)
